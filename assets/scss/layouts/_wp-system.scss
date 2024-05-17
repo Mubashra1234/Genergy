@@ -1,0 +1,62 @@
+.wp-systems {
+    padding-block: 100px;
+    background-color: #252547;
+
+    .wp-img {
+        position: relative;
+        img {
+            width: 500px;
+            border-radius: 43px;
+        }
+    }
+    .offer_card{
+        position: absolute;
+        width: 208px;
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-radius: 19px;
+        top: 30rem;
+    left: 4rem;
+        background: #fff;
+        padding: 20px;
+        box-shadow: 6px 7px 5px #ffdb35;
+        h6{
+            color: $text-color;
+            font-size: 20px;
+        }
+    }
+    .wp-text {
+        h3 {
+            color: #fff;
+            padding-top: 10px;
+        }
+
+        .wp-text-list {
+            padding-top: 40px;
+
+            ul {
+                li {
+                    padding-block: 20px;
+                    display: flex;
+                    gap: 10px;
+                    align-items: baseline;
+                    .wp-text-list-icon{
+                        i{
+                            color: orange;
+                            font-size: 16px;
+                        }
+                    }
+                    .wp-text-list-text{
+                    h5 {
+                        color: orange !important;
+                        font-size: 28px;
+                    }
+                    p{
+                        max-width: 465px;
+                        color: #fff !important;
+                    }
+                }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,68 @@
+.offers {
+    padding-block: 50px;
+
+    .offers_heading {
+        h5 {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    .offer {
+        padding-block: 100px;
+        position: relative;
+    .offer_card{
+        position: absolute;
+        width: 208px;
+        border: 2px solid rgba(0, 0, 0, 0);
+        border-radius: 19px;
+        top: 35rem;
+        left: 22rem;
+        background: #fff;
+        padding: 20px;
+        box-shadow: 6px 7px 5px #ffdb35;
+        
+        h6{
+            color: $text-color;
+            font-size: 20px;
+        }
+    }
+    .offer_card2{
+        top: 35rem;
+        left: 43rem;
+        
+    }
+        .offer_img {
+            img {
+                width: 490px;
+                border-radius: 20px
+            }
+        }
+        .offer_text{
+            .offer_text_list{
+                ul{
+                    li{
+                        padding-block: 10px;
+                        display: flex;
+                        i{
+                            padding-right: 5px;
+                            font-size: 16px;
+                            padding-top: 6px;
+                        
+                        }
+                    }
+                }
+            }
+            .offer_button{
+                padding-top: 62px;
+                padding-left: 19px;
+                button{
+                    a{
+                        color: $text-color !important;
+                    }
+                }
+            }
+        }
+    }
+}

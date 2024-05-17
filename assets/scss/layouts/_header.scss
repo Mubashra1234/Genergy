@@ -1,0 +1,30 @@
+header {
+    position: fixed;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+
+    &.menufixcustom {
+        background-color: #141b2b;
+    }
+
+    nav {
+
+        z-index: 1;
+        width: 100%;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .navbar-collapse {
+            justify-content: space-between;
+        }
+
+        .nav-link {
+            padding: 30px 10px 30px 10px;
+        }
+    }
+}

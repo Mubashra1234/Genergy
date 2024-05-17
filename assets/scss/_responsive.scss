@@ -1,0 +1,51 @@
+@media(max-width:1440px){
+    .offers .offer .offer_card2 {
+        left: 35rem;
+    }
+    .wp-systems .offer_card{
+        left: 0;
+    }
+}
+@media(max-width:1200px){
+    h5 {
+        font-size: 35px;
+        line-height: 1;
+        color: #000;
+        font-weight: bold;
+    }
+    h3 {
+        font-size: 30px;
+        line-height: 1;
+        color: #000;
+        font-weight: 600;
+        font-family: "Poppins";
+    }
+    p {
+        font-size: 13px;
+        line-height: 21px;
+        color: #161616;
+        margin-bottom: 0;
+    }
+    
+    .offers .offer .offer_card {
+        top: 33rem;
+        left: 17rem;    
+        }
+    .offers .offer .offer_card2 {
+        top: 33rem;
+        left: 24rem;
+    }
+    .wp-systems .wp-text .wp-text-list ul li .wp-text-list-text h5 {
+        font-size: 24px;
+    }
+    .wp-systems .offer_card {
+        left: -13px;
+        top: 27rem;
+    }
+}	
+@media(max-width:992px) {
+    nav {
+        width: 100%;
+        background-color: #141b2b;
+    }
+}

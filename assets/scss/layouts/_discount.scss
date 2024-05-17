@@ -1,0 +1,29 @@
+.discount{
+    padding-block: 100px;
+    .discount_img{
+        .discount-img-text{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            p{
+                max-width: 70%;
+                padding-top: 20px;
+            }
+        }
+    }
+    .discount-text{
+        .base{
+            span{
+                color: $text-color;
+            }
+        }
+        .discount-blog{
+            p{
+                padding-block: 20px;
+            }
+        }
+        .discount-button{
+            padding-top: 100px;
+        }
+    }
+}

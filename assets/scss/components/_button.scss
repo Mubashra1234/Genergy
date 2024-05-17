@@ -1,0 +1,55 @@
+.theme-btn {
+  background: #ff981d;
+  border-radius: 34px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.01em;
+  font-feature-settings: 'calt' off;
+  color: $primary-color;
+  display: inline-block;
+  text-align: center;
+  letter-spacing: 0;
+  box-shadow: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.5s ease;
+  padding: 8px 22px;
+  font-family: Poppins;
+
+  span {
+    margin-left: 8px;
+  }
+
+  &.dark-btn {
+    background: $primary-color;
+    color: #fff;
+
+    &:hover {
+      color: $primary-color;
+      background: #E5EDF4;
+    }
+  }
+
+  &:hover {
+    background: $primary-color;
+    color: #fff;
+
+    svg {
+      path {
+        fill: #fff;
+      }
+    }
+  }
+  &:disabled{
+    background: #F2F2F2;
+    color: #CCCCCC;
+    &:hover{
+      background: #F2F2F2;
+      color: #CCCCCC;
+    }
+  }
+
+}
