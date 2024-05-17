@@ -24,7 +24,17 @@ header {
         }
 
         .nav-link {
-            padding: 30px 10px 30px 10px;
+            padding: 30px 10px 30px 10px !important;
+            font-size: 24px;
+        }
+        .theme-btn{
+            a{
+            color: #000 !important;
+            font-size: 20px;
         }
     }
+    }
+}
+.bg-grey{
+    background-color: #141b2b;
 }

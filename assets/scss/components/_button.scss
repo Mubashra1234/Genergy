@@ -1,5 +1,5 @@
 .theme-btn {
-  background: #ff981d;
+  background: #ffcc07;
   border-radius: 34px;
   font-weight: 600;
   font-size: 11px;
@@ -16,8 +16,8 @@
   border: none;
   cursor: pointer;
   transition: 0.5s ease;
-  padding: 8px 22px;
-  font-family: Poppins;
+  padding: 10px 25px;
+  font-family: $fontMain;
 
   span {
     margin-left: 8px;

@@ -1,12 +1,18 @@
 .discount{
     padding-block: 100px;
-    .discount_img{
+    &-img{
+        max-width: 900px;
+    img{
+        width: 100%;
+    }
+    }
         .discount-img-text{
             display: flex;
             justify-content: center;
             text-align: center;
+            font-style: italic;
             p{
-                max-width: 70%;
+                max-width: 60%;
                 padding-top: 20px;
             }
         }
@@ -15,6 +21,7 @@
         .base{
             span{
                 color: $text-color;
+                text-align: end;
             }
         }
         .discount-blog{
@@ -26,4 +33,3 @@
             padding-top: 100px;
         }
     }
-}

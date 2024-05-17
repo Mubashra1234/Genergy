@@ -1,68 +1,85 @@
-.offers {
-    padding-block: 50px;
-
-    .offers_heading {
-        h5 {
+.offer {
+    padding-bottom: 120px;
+    &-heading {
+        h3 {
             align-items: center;
             display: flex;
             justify-content: center;
+            padding-top: 60px;
         }
     }
-
-    .offer {
-        padding-block: 100px;
-        position: relative;
-    .offer_card{
+    &-card {
         position: absolute;
-        width: 208px;
+        width: 316px;
         border: 2px solid rgba(0, 0, 0, 0);
         border-radius: 19px;
-        top: 35rem;
-        left: 22rem;
+        bottom: -5rem;
+        right: -3rem;
         background: #fff;
         padding: 20px;
         box-shadow: 6px 7px 5px #ffdb35;
-        
-        h6{
+
+    
+        h6 {
             color: $text-color;
-            font-size: 20px;
-        }
-    }
-    .offer_card2{
-        top: 35rem;
-        left: 43rem;
+            font-size: 36px !important;
+            line-height: 41px;
+            font-weight: 600;
         
+        }
     }
-        .offer_img {
-            img {
-                width: 490px;
-                border-radius: 20px
+    &-img{
+        position: relative;
+        max-width: 520px;
+      img{
+        width: 100%;
+      }
+    }
+    .row{
+        margin-top: 90px;
+    }
+
+    .flex-row-reverse{
+        .offer-card{
+            left: -75px;
+        }
+    }
+
+
+
+
+      
+
+            .theme-btn {
+                margin-top: 105px;
+                margin-left: 28px;
+                padding: 20px 25px 20px 25px;
+            
+                a {
+                    color: $text-color !important;
+                    font-size: 28px;
+                }
             }
         }
-        .offer_text{
-            .offer_text_list{
-                ul{
-                    li{
-                        padding-block: 10px;
-                        display: flex;
-                        i{
-                            padding-right: 5px;
-                            font-size: 16px;
-                            padding-top: 6px;
-                        
-                        }
+    
+    
+       
+
+        .theme-list {
+            padding-top: 40px;
+                li {
+                    padding-block: 10px;
+                    display: flex;
+                    align-items: start;
+                    gap: 10px;
+
+                    i {
+                        padding-right: 5px;
+                        font-size: 16px;
+                        padding-top: 6px;
+
                     }
                 }
             }
-            .offer_button{
-                padding-top: 62px;
-                padding-left: 19px;
-                button{
-                    a{
-                        color: $text-color !important;
-                    }
-                }
-            }
-        }
-    }
-}
+        
+

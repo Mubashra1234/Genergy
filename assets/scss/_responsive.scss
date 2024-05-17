@@ -1,51 +1,195 @@
-@media(max-width:1440px){
-    .offers .offer .offer_card2 {
-        left: 35rem;
-    }
-    .wp-systems .offer_card{
-        left: 0;
-    }
-}
-@media(max-width:1200px){
-    h5 {
-        font-size: 35px;
-        line-height: 1;
-        color: #000;
-        font-weight: bold;
+@media(max-width:1800px) {
+    header nav .nav-link{
+        font-size: 20px
+        ;
     }
     h3 {
-        font-size: 30px;
-        line-height: 1;
-        color: #000;
-        font-weight: 600;
-        font-family: "Poppins";
+        font-size: 55px;
     }
     p {
-        font-size: 13px;
-        line-height: 21px;
-        color: #161616;
-        margin-bottom: 0;
+        font-size: 20px;
     }
-    
-    .offers .offer .offer_card {
-        top: 33rem;
-        left: 17rem;    
-        }
+    .offer .theme-btn a{
+        font-size: 20px;
+    }
+    .offer-card h6{
+        font-size: 27px !important;
+        line-height: 34px;
+    }
+    .offer-card{
+        width: 286px;
+    }
+    .wp-system .offer-card{
+        width: 271px;
+    }
+}
+@media(max-width:1440px) {
     .offers .offer .offer_card2 {
-        top: 33rem;
-        left: 24rem;
+        left: 0rem;
     }
-    .wp-systems .wp-text .wp-text-list ul li .wp-text-list-text h5 {
-        font-size: 24px;
-    }
+
     .wp-systems .offer_card {
-        left: -13px;
-        top: 27rem;
+        left: 0;
     }
-}	
+
+    header nav .nav-link {
+        font-size: 17px;
+    }
+
+    header nav .theme-btn a {
+        font-size: 15px;
+    }
+
+    .playbtn img {
+        padding: 15px;
+    }
+
+    h3 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .offer-card {
+        width: 229px;
+        right: 0rem;
+
+        h6 {
+            color: #000;
+            font-size: 22px !important;
+            line-height: 28px;
+            font-weight: 600;
+        }
+
+    }
+    .offer .theme-btn a {
+        font-size: 20px;
+    }
+
+    .offer .theme-btn{
+        padding: 15px;
+    }
+    footer h5{
+        font-size: 30px;
+    } 
+    footer .footer-link a {
+        font-size: 16px;
+    }
+    footer .contact .location p {
+     line-height: 22px;
+        font-size: 16px;
+    }
+    .wp-system .offer-card {
+        width: 234px;       
+         left: -5rem;
+}
+}
+
+@media(max-width:1200px) {
+
+    header nav .nav-link {
+        font-size: 16px;
+    }
+    .theme-btn{
+        padding: 5px 15px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    .theme-list {
+        padding-top: 20px;
+    }
+    p {
+        font-size: 16px;
+        letter-spacing: normal;
+        line-height: 20px;
+    }
+    .theme-list li{
+        gap: 5px;
+    }
+    .offer .theme-btn a {
+        font-size: 16px;
+    }
+    .offer .theme-btn {
+        padding: 11px;
+    }
+    .offer-card {
+        width: 194px;
+        right: 0rem;
+    }
+    .offer-card h6 {
+        font-size: 16px !important;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .wp-system .offer-card {
+        width: 184px;
+        left: -3rem;
+    }
+    .wp-text .wp-text-list ul li .wp-text-list-text h5 {
+        font-size: 23px;
+    }
+    footer .container {
+        gap: 50px;
+    }
+    footer .footer-logo img {
+        margin-bottom: 30px;
+    }
+    footer h5 {
+        font-size: 20px;
+    }
+}
+
+
+
 @media(max-width:992px) {
     nav {
         width: 100%;
-        background-color: #141b2b;
+        .show{
+            nav{
+                background-color: #fff;
+            }
+        }
+    }
+    .navbar-toggler{
+    background-color: #fff;
+    display: flex;
+    span{
+        color: #000;
+    }    
+    }
+    .offer-card {
+        width: 194px;
+        right: -19px;
+        bottom: -60px;
+    }
+    .offer-text-heading{
+        padding-top: 100px;
+    }
+    .discount-text{
+     padding-top: 50px;
+    }
+    .offer .flex-row-reverse .offer-card {
+        left: 0;
+    }
+    .wp-text{
+        padding-bottom: 50px;
+    }
+    .wp-system .offer-card {
+        left: -2rem;
+    }
+    footer .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(max-width:576px){
+    footer .container {
+        grid-template-columns: 1fr;
+    }
+    .offer-card {
+        right: -1px;
     }
 }

@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <title>Home</title>
   <link rel="stylesheet" href="./assets/css/style.min.css">
@@ -14,148 +16,185 @@
 
 <body>
   <header id="header">
-  <nav class="navbar navbar-expand-lg ">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="./assets/img/genergy logo dark.png" width="200px" height="61px" alt=""></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-lg-auto">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link " href="#">Sign In</a>
-          </li>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./assets/img/logo-white.svg" width="200px" height="61px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="fa-solid fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">QUATATION FORM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">PROFITABILITY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CAREER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="#">CONTACT</a>
+            </li>
 
-        </ul>
-        <div class="navbar-button">
-          <button class="theme-btn"><a href="">Call now</a></button>
+          </ul>
+          <div class="navbar-button">
+            <button class="theme-btn"><a href="">Call now</a></button>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
+    </nav>
   </header>
-  <div class="banner">
-    <img src="./assets/img/about-img.png" alt="">
+
+
+
+
+  <div class="videoBanner" style="background-size: cover;">
+
+    <div class="video" style="background-size: cover;">
+
+      <div class="playbtn" style="background-size: cover; display: block;"> <img src="./assets/img/play-button.png"
+          alt="playbtn"> </div>
+      <video class="tv_video desktopvideos">
+        <source src="./assets/video/video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="desktopThumbnail">
+
+        <img src="./assets/img/banner.png" class="mobileVide d-none " alt="thumbnail" />
+        <img src="./assets/img/banner.png" class="desktopvideos" alt="s" />
+      </div>
+      <video class="tv_video d-none mobileVide" playsinline="" autoplay="" muted="muted">
+        <source src="./assets/video/video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+
+      <div class="play-bt" style="background-size: cover; display: block;"></div>
+      <div class="pause-bt active" style="background-size: cover; display: none;"></div>
+      <div class="mute-bt stop" style="background-size: cover;"></div>
+
+
+
+
+      <!-- <a href="#section-side-1" class="scroll-down"gf></a>-->
+    </div>
+
+
   </div>
 
 
 
-
-  <section class="offers">
+  <section class="offer">
     <div class="container">
-      <div class="offers_heading">
-        <h5>What are offer?</h5>
+      <div class="offer-heading">
+        <h3>
+          What are offer?
+        </h3>
       </div>
-      <div class="offer row">
-        <div class=" col-lg-6 offer_img">
-          <img src="./assets/img/solar panel.png" alt="">
-          <div class="offer_card">
-            <h6>Long-lasting, Heigh Performer and relaible</h6>
+      <div class="row ">
+        <div class=" col-lg-6 ">
+          <div class="offer-img">
+            <img src="./assets/img/solar panel.png" alt="">
+            <div class="offer-card">
+              <h6 class="text-start ">Long-lasting, Heigh Performer and relaible</h6>
+            </div>
           </div>
         </div>
-       
-        <div class=" col-lg-6 offer_text ">
-          <div class="offer_text_heading">
+
+        <div class=" col-lg-6 ">
+          <div class="offer-text-heading">
             <h3>Solar And Storage</h3>
           </div>
-          <div class="offer_text_list">
-            <ul>
+          <div class="offer-text-list">
+            <ul class="theme-list">
               <li>
-                <i class="fa-solid fa-star"></i>
-                <p>Kostenersparnis : Obwohl die Anschaffungskosten für Wärmepumpen anfänglich höher sein können, führen die niedrigeren Betriebskosten und die Möglichkeit, staatliche Förderungen zu erhalten, langfristig zu erheblichen Kosteneinsparungen.
-                </p>
+                <img src="./assets/img/star.svg" alt="">
+                <p><strong>Energy Independence</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  excepturi voluptate corrupti mollitia beatae nemo. Beatae accusantium </p>
               </li>
               <li>
-                <i class="fa-solid fa-star"></i>
-                <p>Kostenersparnis : Obwohl die Anschaffungskosten für Wärmepumpen anfänglich höher sein können, führen die niedrigeren Betriebskosten und die Möglichkeit, staatliche Förderungen zu erhalten, langfristig zu erheblichen Kosteneinsparungen.
-                </p>
+                <img src="./assets/img/star.svg" alt="">
+                <p><strong>Energy Independence</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  excepturi voluptate corrupti mollitia beatae nemo. Beatae accusantium </p>
               </li>
               <li>
-                <i class="fa-solid fa-star"></i>
-                <p>Kostenersparnis : Obwohl die Anschaffungskosten für Wärmepumpen anfänglich höher sein können, führen die niedrigeren Betriebskosten und die Möglichkeit, staatliche Förderungen zu erhalten, langfristig zu erheblichen Kosteneinsparungen.
-                </p>
+                <img src="./assets/img/star.svg" alt="">
+                <p><strong>Energy Independence</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  excepturi voluptate corrupti mollitia beatae nemo. Beatae accusantium </p>
               </li>
               <li>
-                <i class="fa-solid fa-star"></i>
-                <p>Kostenersparnis : Obwohl die Anschaffungskosten für Wärmepumpen anfänglich höher sein können, führen die niedrigeren Betriebskosten und die Möglichkeit, staatliche Förderungen zu erhalten, langfristig zu erheblichen Kosteneinsparungen.
-                </p>
+                <img src="./assets/img/star.svg" alt="">
+                <p><strong>Energy Independence</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  excepturi voluptate corrupti mollitia beatae nemo. Beatae accusantium </p>
               </li>
-               
+
             </ul>
-            
+
           </div>
-          <div class="offer_button">
-            <button class="theme-btn"><a href="">Review Solar Panel</a></button>
-          </div>
+          <button class="theme-btn"><a href="">Review Solar Panel</a></button>
         </div>
       </div>
+    </div>
+  </section>
+  <section class="offer">
+    <div class="container">
 
+      <div class="row flex-row-reverse ">
+        <div class=" col-lg-6 text-end ">
+          <div class="offer-img">
+            <img src="./assets/img/waermepumpen_lang.png" alt="">
+            <div class="offer-card">
+              <h6 class="text-start ">Long-lasting, Heigh Performer and relaible</h6>
+            </div>
+          </div>
+        </div>
 
-      <div class="offer row">
-       
-        <div class=" col-lg-6 offer_text ">
-          <div class="offer_text_heading">
+        <div class=" col-lg-6">
+          <div class="offer-text-heading">
             <h3>Solar And Storage</h3>
           </div>
-          <div class="offer_text_list">
-            <ul>
+          <div class="offer-text-list">
+            <ul class="theme-list">
               <li>
-                <i class="fa-solid fa-star"></i>
-                <p>Kostenersparnis : Obwohl die Anschaffungskosten für Wärmepumpen anfänglich höher sein können, führen die niedrigeren Betriebskosten und die Möglichkeit, staatliche Förderungen zu erhalten, langfristig zu erheblichen Kosteneinsparungen.
-                </p>
+                <img src="./assets/img/star.svg" alt="">
+                <p><strong>Energy Independence</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  excepturi voluptate corrupti mollitia beatae nemo. Beatae accusantium </p>
               </li>
               <li>
-                <i class="fa-solid fa-star"></i>
-                <p>Kostenersparnis : Obwohl die Anschaffungskosten für Wärmepumpen anfänglich höher sein können, führen die niedrigeren Betriebskosten und die Möglichkeit, staatliche Förderungen zu erhalten, langfristig zu erheblichen Kosteneinsparungen.
-                </p>
+                <img src="./assets/img/star.svg" alt="">
+                <p><strong>Energy Independence</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  excepturi voluptate corrupti mollitia beatae nemo. Beatae accusantium </p>
               </li>
               <li>
-                <i class="fa-solid fa-star"></i>
-                <p>Kostenersparnis : Obwohl die Anschaffungskosten für Wärmepumpen anfänglich höher sein können, führen die niedrigeren Betriebskosten und die Möglichkeit, staatliche Förderungen zu erhalten, langfristig zu erheblichen Kosteneinsparungen.
-                </p>
+                <img src="./assets/img/star.svg" alt="">
+                <p><strong>Energy Independence</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  excepturi voluptate corrupti mollitia beatae nemo. Beatae accusantium </p>
               </li>
               <li>
-                <i class="fa-solid fa-star"></i>
-                <p>Kostenersparnis : Obwohl die Anschaffungskosten für Wärmepumpen anfänglich höher sein können, führen die niedrigeren Betriebskosten und die Möglichkeit, staatliche Förderungen zu erhalten, langfristig zu erheblichen Kosteneinsparungen.
-                </p>
+                <img src="./assets/img/star.svg" alt="">
+                <p><strong>Energy Independence</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                  excepturi voluptate corrupti mollitia beatae nemo. Beatae accusantium </p>
               </li>
-               
+
             </ul>
-            
+
           </div>
-          <div class="offer_button">
-            <button class="theme-btn"><a href="">Review Solar Panel</a></button>
-          </div>
+          <button class="theme-btn"><a href="">Review Solar Panel</a></button>
         </div>
-        <div class=" col-lg-6 offer_img text-end">
-          <img src="./assets/img/waermepumpen_lang.png" alt="">
-          <div class="offer_card offer_card2">
-            <h6>Long-lasting, Heigh Performer and relaible</h6>
-          </div>
-        </div>
-       
       </div>
     </div>
   </section>
 
 
-
-  <section class="wp-systems">
+  <section class="wp-system">
     <div class="container">
-      <div class="wp-system row">
+      <div class=" row">
         <div class="wp-text col-lg-6">
           <div class="wp-text-heading">
             <span>Pros with the</span>
@@ -168,8 +207,9 @@
                   <i class="fa-solid fa-circle-dot"></i>
                 </div>
                 <div class="wp-text-list-text">
-                <h5>Lorem, ipsum dolor.</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloribus quas omnis, sit maiores adipisci fuga pariatur possimus magnam alias.</p>
+                  <h5>Lorem, ipsum dolor.</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloribus quas omnis, sit maiores
+                    adipisci fuga .</p>
                 </div>
               </li>
 
@@ -178,8 +218,9 @@
                   <i class="fa-solid fa-circle-dot"></i>
                 </div>
                 <div class="wp-text-list-text">
-                <h5>Lorem, ipsum dolor.</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloribus quas omnis, sit maiores adipisci fuga pariatur possimus magnam alias.</p>
+                  <h5>Lorem, ipsum dolor.</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloribus quas omnis, sit maiores
+                    adipisci fuga</p>
                 </div>
               </li>
 
@@ -188,20 +229,23 @@
                   <i class="fa-solid fa-circle-dot"></i>
                 </div>
                 <div class="wp-text-list-text">
-                <h5>Lorem, ipsum dolor.</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloribus quas omnis, sit maiores adipisci fuga pariatur possimus magnam alias.</p>
+                  <h5>Lorem, ipsum dolor.</h5>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi doloribus quas omnis, sit maiores
+                    adipisci fuga </p>
                 </div>
               </li>
             </ul>
           </div>
         </div>
-        <div class="wp-img col-lg-6 text-end">
-          <img src="./assets/img/pro_img.png" alt="">
-          <div class="offer_card">
-            <h6>Long-lasting, Heigh Performer and relaible</h6>
+        <div class=" col-lg-6 text-end">
+          <div class="wp-img">
+            <img src="./assets/img/pro_img.png" alt="">
+            <div class="offer-card">
+              <h6>Long-lasting, Heigh Performer and relaible</h6>
+            </div>
           </div>
         </div>
-        
+
 
       </div>
     </div>
@@ -213,23 +257,29 @@
   <section class="discount">
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 discount_img">
-          <img src="./assets/img/discount_img.png" alt="">
-          <div class="discount-img-text">
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis facere quisquam, inventore alias veritatis natus tempore eum mollitia earum quasi.</p>
+        <div class="col-md-6 text-center ">
+          <div class="discount-img">
+            <img src="./assets/img/discount_img.png" alt="">
+            <div class="discount-img-text">
+              <p>With average fossil fuel prices, you can save up to 70% on your heating bills on an annual basis.</p>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-md-6 ">
           <div class="discount-text">
             <div class="discount-text-heading">
               <h3>Save up to 50%</h3>
               <div class="base">
-              <span>o annual base</span>
+                <span>o annual base</span>
               </div>
               <div class="discount-blog">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, cum?</p>
-                
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque laborum obcaecati dicta dolor molestias voluptate. Facere maxime alias voluptates pariatur ipsa ea mollitia harum consequuntur? Sint necessitatibus fugiat cum sequi.</p>
+                <p>The gas price included in the calculation is 14.04 cents/kWh.</p>
+                <p>
+
+                  Based on the publicly accessible gas price table on “Verivox.de” Avg. Gas price in ct/kWh with a
+                  consumption of 20,000 kWh/year
+                </p>
+
               </div>
               <div class="discount-button">
                 <button class="theme-btn"><a href="">Get Custom Offer</a></button>
@@ -237,13 +287,82 @@
             </div>
           </div>
         </div>
-       
+
       </div>
     </div>
   </section>
 
 
 
+  <footer>
+    <div class="container">
+      <div class="footer-logo">
+        <img src="./assets/img/logo-white.svg" alt="" width="298px">
+        <p>Since 2012, GENERGY GmbH has made it its mission to offer comprehensive service for your own power plant at a masterful level.</p>
+      <p>Term & Condition - Privacy Police</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-links-heading">
+          <h5>Pages</h5>
+        </div>
+        <div class="footer-link">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Quation Form</a></li>
+            <li><a href="">Profitability</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About us</a></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-links-heading">
+          <h5>Services</h5>
+        </div>
+        <div class="footer-link">
+          <ul>
+            <li><a href="">Photovoltaic for House</a></li>
+            <li><a href="">Photovoltaic for Companies</a></li>
+            <li><a href="">Photovoltaic for Farms</a></li>
+            <li><a href="">Heat Pumps</a></li>
+            <li><a href="">Electricity Storage</a></li>
+            <li><a href="">Financing</a></li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="contact">
+        <div class="location">
+          <img src="./assets/img/Icon ionic-ios-pin.svg" alt="">
+          <p>GENERGY GmbH Ruhrallee 9, 44139 Dortmund</p>
+        </div>
+        <div class="info">
+          <img src="./assets/img/Icon ionic-md-mail.svg" alt="">
+          <p>info@genergy-gmbh.de</p>
+        </div>
+        <div class="contact-number">
+            <img src="./assets/img/Icon ionic-ios-call.svg" alt="">
+            <p>0231 99216603</p>
+        </div>
+      <div class="social-icons">
+        <div class="social-icon">
+        <i class="fa-brands fa-facebook-f"></i>
+        </div>
+        <div class="social-icon">
+        <i class="fa-solid fa-share"></i>
+        </div>
+        <div class="social-icon">
+        <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      </div>
+      <div class="footer-check">
+        <img src="./assets/img/check.svg" alt="">
+      </div>
+    </div>
+  </footer>
 
   <script src="./assets/js/jquery-3.1.1.min.js"></script>
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
