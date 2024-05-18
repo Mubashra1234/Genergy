@@ -3,7 +3,7 @@ h2 {
     font-size: 85px;
     line-height: 1;
     color: #fff;
-    font-family: $fontMain;
+    font-family: $fontheading;
 }
 
 h3 {
@@ -11,12 +11,15 @@ h3 {
     line-height: 1;
     color: #000;
     font-weight: 700;
+    font-family: $fontheading;
+
 }
 
 h4 {
     font-size: 30px;
     line-height: 1;
     color: #000;
+    font-family: $fontheading;
 
 }
 
@@ -25,6 +28,8 @@ h5 {
     line-height: 1;
     color: #000;
     font-weight: bold;
+    font-family: $fontheading;
+
 }
 
 h6 {
@@ -32,6 +37,8 @@ h6 {
     font-size: 18px !important;
     line-height: 24px;
     color: #000000;
+    font-family: $fontheading;
+
 }
 
 p {
