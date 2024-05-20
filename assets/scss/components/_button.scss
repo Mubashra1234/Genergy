@@ -27,15 +27,10 @@
     background: $primary-color;
     color: #fff;
 
-    &:hover {
-      color: $primary-color;
-      background: #E5EDF4;
-    }
+  
   }
 
-  &:hover {
-    background: $primary-color;
-    color: #fff;
+ 
 
     svg {
       path {
@@ -43,13 +38,5 @@
       }
     }
   }
-  &:disabled{
-    background: #F2F2F2;
-    color: #CCCCCC;
-    &:hover{
-      background: #F2F2F2;
-      color: #CCCCCC;
-    }
-  }
+ 
 
-}

@@ -1,11 +1,13 @@
 .offer {
-    padding-bottom: 120px;
+    padding-bottom: 200px;
     &-heading {
-        h3 {
+        h1 {
             align-items: center;
             display: flex;
             justify-content: center;
-            padding-top: 60px;
+            padding-top: 120px;
+            color: #000;
+            padding-bottom: 160px;
         }
     }
     &-card {
@@ -18,11 +20,12 @@
         background: #fff;
         padding: 20px;
         box-shadow: 6px 7px 5px #ffdb35;
+        text-align: start;
 
     
-        h6 {
+        span {
             color: $text-color;
-            font-size: 36px !important;
+            font-size: 32px !important;
             line-height: 41px;
             font-weight: 600;
         
@@ -33,10 +36,8 @@
         max-width: 520px;
       img{
         width: 100%;
+        height: auto;
       }
-    }
-    .row{
-        margin-top: 90px;
     }
 
     .flex-row-reverse{
@@ -51,7 +52,7 @@
       
 
             .theme-btn {
-                margin-top: 105px;
+                margin-top: 90px;
                 margin-left: 28px;
                 padding: 20px 25px 20px 25px;
             
@@ -66,12 +67,12 @@
        
 
         .theme-list {
-            padding-top: 40px;
+            padding-top: 30px;
                 li {
                     padding-block: 10px;
                     display: flex;
                     align-items: start;
-                    gap: 10px;
+                    gap: 20px;
 
                     i {
                         padding-right: 5px;

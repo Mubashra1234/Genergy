@@ -1,0 +1,53 @@
+
+
+.video {
+    width: 100%;
+    position: relative;
+}
+
+.tv_video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.mobilevideo {
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+
+.desktopThumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+
+}
+
+.desktopThumbnail img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.playbtn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    cursor: pointer;
+    z-index: 5;
+    img{
+       
+        border: 4px solid white;
+        padding: 30px;
+        border-radius: 50%;
+    }
+}

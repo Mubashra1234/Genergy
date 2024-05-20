@@ -13,9 +13,6 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.slick-loading .slick-list {
-    background: url(ajax-loader.gif) center center no-repeat #fff;
-}
 @font-face {
     font-family: slick;
     font-weight: 400;
@@ -121,7 +118,21 @@
     color: transparent;
     border: 0;
     outline: 0;
-    background: 0 0;
+    background:#575968;
+    border-radius: 50%;
+}
+.slick-dots li.slick-active{
+    width: 60px;
+
+}
+.slick-dots li.slick-active button{
+    width: 60px;
+    border-radius: 10px;
+ }
+.slick-dots li.slick-active button:before{
+   background: #fff;
+   border-radius: 10px;
+   width: 60px;
 }
 .slick-dots li button:focus,
 .slick-dots li button:hover {

@@ -1,0 +1,87 @@
+.comitment {
+    padding-block: 116px 210px;
+
+    &-heading {
+        text-align: center;
+        padding-bottom: 100px;
+
+        h4 {
+
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            padding-top: 60px;
+            color: #000;
+            font-size: 64px;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 32px;
+            padding-bottom: 20px;
+        }
+    }
+
+    .ranges {
+        gap: 30px;
+
+        .range {
+
+            p {
+                font-size: 32px;
+                padding-bottom: 30px;
+            }
+
+            h3 {
+                padding-bottom: 30px;
+                font-size: 61px;
+                font-family: "Poppins";
+                color: #ffcc07;
+                font-weight: 500;
+            }
+        }
+
+    }
+
+    .good-range {
+        text-align: center;
+        p {
+            font-size: 58px;
+        }
+
+        h2 {
+            color: #000;
+            font-size: 172px;
+            padding-top: 39px;
+            font-weight: 600;
+            padding-top: 30px;
+        }
+          img{
+            
+            padding-bottom: 30px;
+          }
+        span {
+            font-size: 32px !important;
+            font-weight: 600;
+            text-align: center;
+            color: #000;
+        }
+
+        img {
+            padding-top: 20px;
+        }
+
+    }
+
+    .range-line-left {
+        img {
+            padding-right: 20px;
+        }
+    }
+
+    .range-line-right {
+        img {
+            padding-left: 20px;
+        }
+    }
+}

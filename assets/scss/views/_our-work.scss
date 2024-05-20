@@ -1,0 +1,112 @@
+.our-work{
+    padding-block: 150px;
+    &-heading{
+        display: flex;
+        justify-content: center;
+    }
+    &-heading-text{
+        p{
+            max-width: 70%;
+            margin: auto;
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 100px;
+        }
+    }
+    &-card{
+        border: 2px solid #d1d1d1;
+        border-radius: 20px;
+        padding: 20px;
+        position: relative;
+      
+        span{
+            font-size: 20px;
+            color: #d7cfcf;
+        }
+        h3{
+            color: #d7cfcf;
+            padding-bottom: 70px;
+        }
+        strong{
+           
+            color: #000;
+            font-size: 16px;
+        }
+        p{
+            font-size: 16px;
+            color: #d1d1d1;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: normal;
+        }
+    }
+    
+
+    hr{
+        background: #000;
+        margin-top: 90px;
+    
+    }
+    .our-work-btn[data-toggle-target=".owc-content-1"]{
+        background-color: orange;
+    }
+    .our-work-btn.active[data-toggle-target=".owc-content-1"]{
+        background-color: #fff;
+        border: 5px solid orange;
+       
+    }
+    .owc-content.active{
+        strong,p,span,h3{
+        color: #fff;
+        }
+    }
+    .owc-content-1.active{
+        background-color: orange;
+    }
+
+    .our-work-btn[data-toggle-target=".owc-content-2"]{
+        background-color: purple;
+    }
+    .our-work-btn.active[data-toggle-target=".owc-content-2"]{
+        background-color: #fff;
+        border: 5px solid purple;
+    }
+    .owc-content-2.active{
+        background-color: purple;
+    }
+
+    .our-work-btn[data-toggle-target=".owc-content-3"]{
+        background-color: green;
+    }
+    .our-work-btn.active[data-toggle-target=".owc-content-3"]{
+        background-color: #fff;
+        border: 5px solid green;
+    }
+    .owc-content-3.active{
+        background-color: green;
+    }
+
+    .our-work-btn[data-toggle-target=".owc-content-4"]{
+        background-color: skyblue;
+    }
+    .our-work-btn.active[data-toggle-target=".owc-content-4"]{
+        background-color: #fff;
+        border: 5px solid skyblue;
+    }
+    .owc-content-4.active{
+        background-color: skyblue;
+    }
+    .our-work-btn{
+        width: 20px;
+        height: 20px;
+        background-color: gray;
+        display: block;
+        margin: auto;
+        border-radius: 20px;
+    }
+    .work-btns{
+        position: absolute;
+    width: 100%;
+    bottom: -10px;
+    }
+}

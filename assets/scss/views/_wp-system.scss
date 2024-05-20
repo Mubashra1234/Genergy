@@ -1,12 +1,13 @@
 .wp-system {
-    padding-block: 100px;
     background-color: #0E1126;
+    padding: 123px 0px 180px;
+  
     .offer-card{
         position: absolute;
         width: 316px;
         border: 2px solid rgba(0, 0, 0, 0);
         border-radius: 19px;
-        left: -8rem;
+        left: -3rem;
         background: #fff;
         padding: 20px;
         box-shadow: 6px 7px 5px #ffdb35;
@@ -30,18 +31,34 @@
     .wp-text {
         h3 {
             color: #fff;
-            padding-top: 10px;
+            padding-top: 20px;
         }
 
         .wp-text-list {
-            padding-top: 40px;
+            padding-top: 100px;
+          
 
             ul {
+                
                 li {
+                     position: relative;
                     padding-block: 20px;
                     display: flex;
                     gap: 11px;
                     align-items: baseline;
+                    &::after{
+                        content: "";
+                        height: 100%;
+                        width: 2px;
+                        background-color: #ffcc07;
+                        display: block;
+                        position: absolute;
+                        margin-left: 7px;
+                        top: 48px;
+                    }
+                    &:last-child::after{
+                        content: none;
+                    }
                     .wp-text-list-icon{
                         i{
                             color: #ffcc07;
@@ -49,7 +66,7 @@
                         }
                     }
                     .wp-text-list-text{
-                    h5 {
+                    span {
                         color: #ffcc07 !important;
                         font-size: 28px;
                     }
@@ -59,5 +76,6 @@
                 }
                 }
             }
+           
         }
     }

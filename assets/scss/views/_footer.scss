@@ -1,19 +1,21 @@
 footer {
     background-color: #37383C;
-    padding-block: 115px;
+    padding-block: 85px;
     color: #fff !important;
 
     .container {
         display: flex;
-        gap: 100px;
+        gap: 60px;
     }
 
     p {
         color: #fff;
     }
 
-    h5 {
+    span {
         color: #fff;
+        font-size: 40px;
+        font-weight: 600;
     }
 
     .footer-logo {
@@ -25,7 +27,7 @@ footer {
     }
 
     .contact {
-        .location {
+        .place {
             display: inline-flex;
             align-items: start;
             gap: 15px;

@@ -1,8 +1,9 @@
 h1,
 h2 {
-    font-size: 85px;
+    font-size: 64px;
     line-height: 1;
-    color: #fff;
+    color: #000;
+    font-weight: 700;
     font-family: $fontheading;
 }
 
@@ -66,5 +67,4 @@ ul{
 span{
     color: #fff;
     font-size: 16px;
-    font-weight: 100;
 }

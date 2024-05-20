@@ -1,0 +1,150 @@
+.whyus {
+    background: #0e1126;
+    padding-block: 100px;
+
+
+    &-action{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-button{
+           button{
+            padding: 20px 30px;
+            a{
+                color: #000 !important;
+                font-size: 28px;
+            }
+           }
+        }
+        &-number{
+            h5{
+                font-size: 32px;
+                color: #fff;
+                text-align: center;
+                margin-bottom: 35px;
+            }
+           a{
+            font-size: 64px;
+    font-weight: 600;
+           }
+        }
+    }
+
+    &-heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h4 {
+            color: #fff;
+            font-size: 64px;
+            line-height: 1;
+            font-weight: 700;
+            span{
+                font-weight: 400;
+            }
+        }
+    }
+
+    &-card {
+
+        margin-inline: 14px;
+        border-radius: 50px;
+        position: relative;
+          
+        img{
+            position: relative;
+            border-radius: 20px;
+        }
+        .card-text{
+            position: absolute;
+            bottom: 0;
+            padding: 10px;
+            
+        h5{
+            color: #ffcc07 !important;
+            font-size: 24px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+            bottom: 0;
+            color: #fff;
+        }
+        .overlay{
+            position: absolute;
+            width: 100%;
+            background: rgb(0,0,0);
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.42629551820728295) 0%, rgb(255 255 255 / 0%) 100%);
+            bottom: 0;
+            height: 60%;
+        }
+    }
+}
+
+
+        .star-list {
+            padding: 20px 0;
+            display: flex;
+
+            span {
+                width: 35px;
+            }
+        }
+
+        &-footer {
+
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        .rc-author {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: #efd0db;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #b92256;
+        }
+        .rc-info{
+            h5{
+                font-size: 24px;
+            }
+            span{
+                font-size: 20px;
+                color: #000;
+            }
+        }
+    }
+
+    .testimonials_list {
+        padding: 75px 0 80px;
+
+    }
+
+    .slick-dots {
+        bottom: -170px;
+    }
+
+
+
+.slider-btn{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.slick-arrow{
+    .small{
+        display: none;
+        }
+}
+.slick-arrow.slick-disabled{
+    .large{
+        display: none;
+    }
+    .small{
+        display: block;
+    }
+}

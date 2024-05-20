@@ -1,30 +1,48 @@
 @media(max-width:1800px) {
-    header nav .nav-link{
-        font-size: 20px
-        ;
+    header nav .nav-link {
+        font-size: 20px;
     }
+
     h3 {
         font-size: 55px;
     }
+
     p {
         font-size: 20px;
         line-height: normal;
         letter-spacing: normal;
     }
-    .offer .theme-btn a{
+
+    .offer .theme-btn a {
         font-size: 20px;
     }
-    .offer-card h6{
+
+    .offer-card span {
         font-size: 27px !important;
         line-height: 34px;
     }
-    .offer-card{
+
+    .offer-card {
         width: 286px;
     }
-    .wp-system .offer-card{
+
+    .wp-system .offer-card {
         width: 271px;
     }
+
+    .service-banner1 .banner-content h1 {
+        font-size: 60px;
+    }
+
+    .service-banner1 .banner-content h5 {
+        font-size: 30px;
+    }
+
+    .service-banner1 .banner-content button a {
+        font-size: 25px;
+    }
 }
+
 @media(max-width:1440px) {
     .offers .offer .offer_card2 {
         left: 0rem;
@@ -66,132 +84,523 @@
         }
 
     }
+
     .offer .theme-btn a {
         font-size: 20px;
     }
 
-    .offer .theme-btn{
+    .offer .theme-btn {
         padding: 15px;
     }
-    footer h5{
+
+    footer span {
         font-size: 30px;
-    } 
+    }
+
     footer .footer-link a {
         font-size: 16px;
     }
-    footer .contact .location p {
-     line-height: 22px;
+
+    footer .contact .place p {
+        line-height: 22px;
         font-size: 16px;
     }
+
     .wp-system .offer-card {
-        width: 234px;       
-         left: -5rem;
-}
+        width: 234px;
+        left: -5rem;
+    }
+
+    .good-range {
+        text-align: center;
+    }
+
+    .comitment .good-range p {
+        font-size: 35px;
+    }
+
+    .comitment .good-range h2 {
+        font-size: 120px;
+    }
+
+    .comitment .ranges .range h3 {
+        font-size: 40px;
+    }
+
+    .service-banner1 .banner-content h1 {
+        font-size: 51px;
+    }
+
+    .service-banner1 .banner-content h5 {
+        font-size: 25px;
+    }
+
+    .service-banner1 .banner-content button a {
+        font-size: 18px;
+    }
+
+    .service-banner1 .banner-img .offer-card {
+        width: 236px;
+        bottom: -2rem;
+        padding: 17px;
+    }
+
+    .future-invest .future-content h1 {
+        font-size: 52px;
+    }
+
+    .future-invest .future-content p {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 2px;
+    }
+
+    .future-invest .future-img .offer-card {
+        width: 228px;
+        left: -3rem;
+        bottom: -42px;
+    }
+    .offer-heading h1, .offer h2, .offer h3, .wp-text h3, .discount h3, .reviews-heading h4, .comitment-heading h4, .whyus h4, .our-work h3 {
+        font-size: 50px;
+    }
+    .wp-text-list-icon img{
+        width: 28px;
+    }
 }
 
 @media(max-width:1200px) {
+    header nav .navbar-collapse {
+        padding: 30px 0;
+    }
 
     header nav .nav-link {
         font-size: 16px;
+        padding: 20px 10px;
     }
-    .theme-btn{
+
+    .theme-btn {
         padding: 5px 15px;
     }
+
     h3 {
         font-size: 35px;
     }
+
     .theme-list {
         padding-top: 20px;
     }
+
     p {
         font-size: 16px;
         letter-spacing: normal;
         line-height: 20px;
     }
-    .theme-list li{
+
+    .theme-list li {
         gap: 5px;
     }
+
     .offer .theme-btn a {
         font-size: 16px;
     }
-    .offer .theme-btn {
-        padding: 11px;
-    }
+
+
+
     .offer-card {
         width: 194px;
         right: 0rem;
     }
-    .offer-card h6 {
+
+    .offer-card span {
         font-size: 16px !important;
         line-height: 21px;
         font-weight: 600;
     }
+
     .wp-system .offer-card {
         width: 184px;
         left: -3rem;
     }
+
     .wp-text .wp-text-list ul li .wp-text-list-text h5 {
         font-size: 23px;
     }
+
     footer .container {
         gap: 50px;
     }
+
     footer .footer-logo img {
         margin-bottom: 30px;
     }
-    footer h5 {
+
+    footer span {
         font-size: 20px;
     }
+
+    .comitment .ranges .range p {
+        line-height: 1.4;
+        font-size: 24px;
+    }
+
+    .service-banner1 .banner-content h1 {
+        font-size: 45px;
+    }
+
+    .service-banner1 .banner-content h5 {
+        font-size: 20px;
+    }
+
+    .service-banner1 .banner-content button {
+        padding: 10px 20px;
+    }
+
+    .service-banner1 .banner-img .offer-card {
+        right: 18rem;
+    }
+
+    .location .service-content {
+        padding-left: 3rem;
+    }
+
+    .location .service-text-heading h5 {
+        font-size: 25px;
+    }
+
+    .location .service-text-heading h2 {
+        font-size: 40px;
+    }
+
+    .location .service-text-list li .theme-list-heading {
+        gap: 6px;
+    }
+
+    .heat-pump .theme-btn {
+        padding: 12px 18px;
+        margin-left: 50px;
+
+        a {
+            font-size: 19px;
+        }
+    }
+
+    .future-invest .future-content p {
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: normal;
+    }
+
+    .future-invest .future-content button{
+         padding: 15px 21px;;
+
+    a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
 }
 
 
-
+ 
 @media(max-width:992px) {
+
     nav {
         width: 100%;
-        .show{
-            nav{
+
+        .show {
+            nav {
                 background-color: #fff;
             }
         }
     }
-    .navbar-toggler{
-    background-color: #fff;
-    display: flex;
-    span{
-        color: #000;
-    }    
+
+    .navbar-toggler {
+        background-color: #000;
+        display: flex;
+
+        span {
+            color: #000;
+        }
     }
+
     .offer-card {
         width: 194px;
         right: -19px;
         bottom: -60px;
     }
-    .offer-text-heading{
+
+    .offer-text-heading {
         padding-top: 100px;
     }
-    .discount-text{
-     padding-top: 50px;
+
+    .discount-text {
+        padding-top: 50px;
     }
+
     .offer .flex-row-reverse .offer-card {
         left: 0;
     }
-    .wp-text{
+
+    .wp-text {
         padding-bottom: 50px;
     }
+
     .wp-system .offer-card {
         left: -2rem;
     }
-    footer .container{
+
+    footer .container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .range {
+        text-align: center;
+    }
+
+    .comitment .ranges {
+        justify-content: center;
+    }
+
+    .commitment-logo {
+        text-align: center;
+    }
+
+    .commitment-logo img {
+        max-width: 250px;
+    }
+
+    .range-line-left,
+    .range-line-right {
+        transform: rotate(90deg);
+        max-height: 250px;
+        display: flex;
+        align-items: center;
+    }
+
+    .range-line-left img,
+    .range-line-right img {
+        max-height: inherit;
+    }
+
+    .offer-img {
+        margin: auto;
+    }
+
+    .wp-system .wp-img {
+        margin: auto;
+    }
+
+    .offer .theme-btn {
+        margin-top: 30px;
+    }
+
+    .discount-text .discount-button {
+        padding-top: 30px;
+    }
+
+    footer p {
+        line-height: 1.4;
+    }
+
+    .service-banner1 .banner-content {
+        padding-top: 100px;
+    }
+
+    .service-banner1 {
+        padding: 135px 0 100px 0;
+    }
+
+    .service-banner1 .banner-img .offer-card {
+        width: 190px;
+        right: 14rem;
+    }
+
+    .service-banner1 .banner-img .offer-card h6 {
+        line-height: 27px;
+    }
+
+    .service-banner1 .banner-content h5 {
+        padding-bottom: 46px;
+    }
+
+    .location .service-content {
+        padding-left: 0;
+    }
+    .future-invest .future-img{
+        text-align: center;
+    }
+    .future-content{
+        padding: 100px 0;
+    }
+    .whyus-heading h4{
+        font-size: 32px;
+    }
+    .whyus-action-number a {
+        font-size: 43px;
+    }
+    .our-work-card {
+        margin-bottom: 20px;
+    }
+    .whyus-action-number h5 {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .whyus-action-number a {
+        font-size: 37px;
+    }
+    .whyus-action-button button a {
+        font-size: 20px;
+    }
+    .whyus-action-button button {
+        padding: 10px 15px;
+    }
 }
-@media(max-width:576px){
+
+@media(max-width:768px) {
+    .our-work-heading-text p {
+        max-width: 90%;
+    }
+    .offer-heading h1,
+    .offer h2,
+    .offer h3,
+    .wp-text h3,
+    .discount h3,
+    .reviews-heading h4,
+    .comitment-heading h4,
+    .our-work-heading h3 {
+        font-size: 35px;
+    }
+    .offer-heading h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    }
+    .offer .row {
+        margin-top: 50px;
+    }
+
+    .service-banner1 .banner-img .offer-card {
+        right: -1rem;
+    }
+
+    .location .service-content {
+        padding-top: 30px;
+    }
+    .future-invest .future-img .offer-card {
+        left: -1rem;
+    }
+    .large{
+        display: none;
+    }
+}
+
+@media(max-width:576px) {
+    .offer-heading h1, .offer h2, .offer h3, .wp-text h3, .discount h3, .reviews-heading h4, .comitment-heading h4, .our-work-heading h3 {
+        font-size: 32px;
+    }
+    .wp-system{
+        padding-top: 50px;
+    }
+    .wp-text .wp-text-list {
+        padding-top: 50px;
+    }
+    .wp-text-list-icon img {
+        width: 40px;
+    }
+    .wp-text .wp-text-list ul li::after {
+        width: 1px;
+    }
+    .wp-text .wp-text-list ul li .wp-text-list-text span{
+        font-size: 20px;
+    }
+    .wp-text .wp-text-list ul li .wp-text-list-text p{
+        font-size: 14px;
+    }
+    .wp-system .offer-card {
+        padding: 5px;
+        left: -1px;
+    }
+    .reviews-heading h4{
+        font-size: 25px !important;
+    }
     footer .container {
         grid-template-columns: 1fr;
     }
+    .navbar-brand{
+        width: 100px;
+    }
+    .small {
+        width: 30px;
+    }
+    .whyus-heading h4 {
+        font-size: 24px;
+    }
+    .whyus-action{
+        display: block;
+        text-align: center;
+    }
+    .whyus-action-button{
+        margin-bottom: 20px;
+    }
+    .our-work-heading img{
+        width: 30px;
+    }
+    
+    .playbtn img {
+        width: 56px;
+        padding: 10px;
+    }
+
     .offer-card {
         right: -1px;
+    }
+
+
+    .service-banner1 .banner-img .offer-card h6 {
+        line-height: 21px;
+    }
+
+    .service-banner1 .banner-img .offer-card {
+        width: 162px;
+        right: 0;
+    }
+
+    .service-banner1 .banner-content h1 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .heat-pump .theme-btn {
+        margin-left: 0;
+    }
+    .navbar {
+        padding-block: 20px;
+    }
+    .offer {
+        padding-bottom: 70px;
+    }
+    .whyus-action-number a {
+        font-size: 25px;
+    }
+    .our-work {
+        padding-block: 70px;
+    }
+    .discount {
+        padding-block: 70px;
+    }
+    .comitment-heading h4 {
+        padding-top: 10px;
+    }
+    .comitment-heading p{
+        font-size: 20px;
+    }
+    .footer-check img{
+        width: 100px;
+    }
+    .reviews, 
+    .comitment{
+        padding: 70px 0;
+    }
+    .tv_video {
+        min-height: 415px;
     }
 }
